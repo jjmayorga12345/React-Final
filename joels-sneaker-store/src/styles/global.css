@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+.light {
+  background-color: #f4f4f4;
+  color: #000;
+  min-height: 100vh;
+}
+
+.light .card,
+.light .sidebar {
+  background-color: #fff;
+  color: #000;
+}
+
+.light .card {
+  box-shadow: 0 0 0 2px #00bfa566;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.light .card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0 10px 2px #00bfa5aa;
+}
+
+
+.dark {
+  background-color: #1a1a1a;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.dark .card,
+.dark .sidebar {
+  background-color: #2a2a2a;
+  color: #fff;
+}
+
+.dark .card {
+  box-shadow: 0 0 0 2px #ffffff33;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dark .card:hover {
+  transform: scale(1.015);
+  box-shadow: 0 0 10px 2px #ffffffaa;
+}
